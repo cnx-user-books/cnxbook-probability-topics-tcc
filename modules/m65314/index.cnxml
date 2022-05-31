@@ -1,0 +1,146 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="practice">
+  <title>Probability Topics: Practice with Contingency Tables</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m65314</md:content-id>
+  <md:title>Probability Topics: Practice with Contingency Tables</md:title>
+  <md:abstract>This module provides the opportunity for students to apply what they've learned about probability to solve a series of problems given a set of data.  Students will practice constructing and interpreting contingency tables.</md:abstract>
+  <md:uuid>4f5f1056-d792-47bc-81d9-3619f708b728</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="chap 3 practice.pdf" strength="3">Download handout (.pdf)</link>
+      <link url="chap 3 practice.doc" strength="3">Download handout (.doc)</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <section id="element-492"><title>Student Learning Outcomes</title><list id="element-490" list-type="bulleted"><item> The student will construct and interpret contingency tables.</item>
+</list></section><section id="element-465"><title>Given</title>
+<para id="element-12">An article in the <cite><cite-title>New England Journal of Medicine</cite-title></cite> , reported about a study of smokers in California and Hawaii. In one part of the report, the self-reported ethnicity and smoking levels per day were given. Of the people smoking at most 10 cigarettes per day, there were 9886 African Americans, 2745 Native Hawaiians, 12,831 Latinos, 8378 Japanese Americans, and 7650 Whites. Of the people smoking 11-20 cigarettes per day, there were 6514 African Americans, 3062 Native Hawaiians, 4932 Latinos, 10,680 Japanese Americans, and 9877 Whites. Of the people smoking 21-30 cigarettes per day, there were 1671 African Americans, 1419 Native Hawaiians, 1406 Latinos, 4715 Japanese Americans, and 6062 Whites. Of the people smoking at least 31 cigarettes per day, there were 759 African Americans, 788 Native Hawaiians, 800 Latinos, 2305 Japanese Americans, and 3970 Whites. (<cite><cite-title>(Source: http://www.nejm.org/doi/full/10.1056/NEJMoa033250)</cite-title></cite>)
+</para></section><section id="element-884"><title>Complete the Table</title><para id="element-2314">
+Complete the table below using the data provided.
+</para>
+<table id="element-762" summary="Partially filled ethnicity by smoking level table with the first column listing the smoking levels (4 rows plus the total), the blank second column lists African American values, blank third column for Native Hawaiians, blank fourth column for Latinos, blank fifth column for Japanese Americans, blank sixth column for Whites, and blank seventh column for the Total.">
+
+<title>Smoking Levels by Ethnicity</title>
+<tgroup cols="7"><colspec colname="header_c1"/>
+	<colspec colname="c2"/>
+	<colspec colname="c3"/>
+	<colspec colname="c4"/>
+	<colspec colname="c5"/>
+	<colspec colname="c6"/>
+	<colspec colname="c7"/>
+	<thead>
+		<row>
+			<entry>Smoking Level</entry>
+			<entry>African American</entry>
+			<entry>Native Hawaiian</entry>
+			<entry>Latino</entry>
+			<entry>Japanese Americans</entry>
+			<entry>White</entry>
+			<entry>TOTALS</entry>
+		</row>
+	</thead>
+	<tbody>
+		<row>
+			<entry>1-10</entry>
+			<entry/>
+			<entry/>
+			<entry/>
+			<entry/>
+			<entry/>
+			<entry/>
+		</row>
+		<row>
+			<entry>11-20</entry>
+			<entry/>
+			<entry/>
+			<entry/>
+			<entry/>
+			<entry/>
+			<entry/>
+		</row>
+		<row>
+			<entry>21-30</entry>
+			<entry/>
+			<entry/>
+			<entry/>
+			<entry/>
+			<entry/>
+			<entry/>
+		</row>
+		<row>
+			<entry>31+</entry>
+			<entry/>
+			<entry/>
+			<entry/>
+			<entry/>
+			<entry/>
+			<entry/>
+		</row>
+		<row>
+			<entry>TOTALS</entry>
+			<entry/>
+			<entry/>
+			<entry/>
+			<entry/>
+			<entry/>
+			<entry/>
+		</row>
+	</tbody>
+
+
+</tgroup>
+</table></section><section id="element-486"><title>Analyze the Data</title><para id="element-325235">Suppose that one person from the study is randomly selected.</para>
+<exercise id="element-841"><problem id="id24840283">
+  <para id="element-263">
+    Find the probability that person smoked 11-20 cigarettes per day.
+  </para>
+</problem>
+
+<solution id="id24840301">
+  <para id="element-603">
+    <m:math><m:mfrac><m:mn>35,065</m:mn><m:mn>100,450</m:mn></m:mfrac></m:math>
+  </para>
+</solution>
+</exercise><exercise id="element-120"><problem id="id24840332">
+  <para id="element-250">
+    Find the probability that person was Latino.
+  </para>
+</problem>
+
+<solution id="id24840350">
+  <para id="element-536"><m:math><m:mfrac><m:mn>19,969</m:mn><m:mn>100,450</m:mn></m:mfrac></m:math>
+  </para>
+</solution>
+</exercise></section><section id="element-857"><title>Discussion Questions</title><exercise id="exercise-124">
+<problem id="id24840396"><para id="exercise-124p">
+In words, explain what it means to pick one person from the study and that person is “Japanese American <emphasis>AND</emphasis> smokes 21-30 cigarettes per day.” Also, find the probability.
+</para></problem>
+<solution id="id25124759"><para id="exercise-124s">
+    <m:math><m:mfrac><m:mn>4,715</m:mn><m:mn>100,450</m:mn></m:mfrac></m:math>
+</para></solution></exercise>
+  
+
+<exercise id="exercise-125">
+<problem id="id25124791"><para id="exercise-125p">In words, explain what it means to pick one person from the study and that person is “Japanese American <emphasis>OR</emphasis> smokes 21-30 cigarettes per day.” Also, find the probability.</para></problem>
+<solution id="id25124818"><para id="exercise-125s">
+    <m:math><m:mfrac><m:mn>36,636</m:mn><m:mn>100,450</m:mn></m:mfrac></m:math>
+</para></solution></exercise>
+
+<exercise id="exercise-126">
+<problem id="id25124851"><para id="exercise-126p">In words, explain what it means to pick one person from the study and that person is “Japanese American <emphasis>GIVEN</emphasis> that person smokes 21-30 cigarettes per day.” Also, find the probability.</para></problem>
+<solution id="id25124879"><para id="exercise-126s">
+    <m:math><m:mfrac><m:mn>4715</m:mn><m:mn>15,273</m:mn></m:mfrac></m:math>
+</para></solution></exercise>
+
+<exercise id="exercise-127">
+<problem id="id25124911"><para id="exercise-127p">Prove that smoking level/day and ethnicity are dependent events.</para></problem>
+</exercise>
+</section>   
+  </content>
+  
+</document>

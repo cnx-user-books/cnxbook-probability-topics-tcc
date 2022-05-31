@@ -1,0 +1,58 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Probability Topics: Introduction</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m65307</md:content-id>
+  <md:title>Probability Topics: Introduction</md:title>
+  <md:abstract>This module introduces the concept of Probability, the chance of an event occurring.</md:abstract>
+  <md:uuid>4577d659-e428-48f3-8387-c3d8a7e9684e</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="http://cnx.org/content/m17563/latest/" strength="2">View the Video Lecture for this Chapter</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+<section id="element-639"><title>Student Learning Objectives</title>
+<para id="element-194">
+By the end of this chapter, the student should be able to:
+</para>
+<list id="list1523423"><item>Understand and use the terminology of probability.</item>
+<item>Determine whether two events are mutually exclusive and whether two events are 
+independent.</item>
+<item>Construct and interpret Contingency Tables.</item>
+</list></section><section id="id14672975"><title>Introduction</title>
+    <para id="delete_me">It is often necessary to "guess" about the outcome of an event in order to make a decision.
+Politicians study polls to guess their likelihood of winning an election. Teachers choose a
+particular course of study based on what they think students can comprehend. Doctors
+choose the treatments needed for various diseases based on their assessment of likely results. You may have visited a casino where
+people play games chosen because of the belief that the likelihood of winning is good. You
+may have chosen your course of study based on the probable availability of jobs.</para><para id="element-209">You have, more than likely, used probability. In fact, you probably have an intuitive sense of
+probability. Probability deals with the chance of an event occurring. Whenever you weigh the
+odds of whether or not to do your homework or to study for an exam, you are using
+probability. In this chapter, you will learn to solve probability problems using a systematic
+approach. </para></section><section id="element-893"><title>Optional Collaborative Classroom Exercise</title><para id="element-663">Your instructor will survey your class. Count the number of students in the class today.
+</para><list id="element-577" list-type="bulleted"><item>Raise your hand if you have any change in your pocket or purse. Record the
+number of raised hands. </item>
+<item>Raise your hand if you rode a bus within the past month. Record the number of
+raised hands.</item>
+
+<item>Raise your hand if you answered "yes" to BOTH of the first two questions. Record
+the number of raised hands.</item>
+</list><para id="element-352">Use the class data as estimates of the following probabilities. <m:math><m:mtext>P(change)</m:mtext></m:math> means the probability
+that a randomly chosen person in your class has change in his/her pocket or purse. <m:math><m:mtext>P(bus)</m:mtext></m:math>
+means the probability that a randomly chosen person in your class rode a bus within the last
+month and so on. Discuss your answers.</para><list id="element-204" list-type="bulleted"><item>Find <m:math><m:mtext>P(change)</m:mtext></m:math>.</item>
+<item>Find <m:math><m:mtext>P(bus)</m:mtext></m:math>.</item>
+<item>Find <m:math><m:mtext>P(change and bus)</m:mtext></m:math> Find the probability that a randomly chosen student in your class
+has change in his/her pocket or purse and rode a bus within the last month.</item>
+<item>Find <m:math><m:mtext>P(change| bus)</m:mtext></m:math> Find the probability that a randomly chosen student has change given
+that he/she rode a bus within the last month. Count all the students that rode a bus. From
+the group of students who rode a bus, count those who have change. The probability is
+equal to those who have change and rode a bus divided by those who rode a bus.</item></list></section>   
+  </content>
+  
+</document>

@@ -1,0 +1,326 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Probability Topics: Independent &amp; Mutually Exclusive Events</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m65309</md:content-id>
+  <md:title>Probability Topics: Independent &amp; Mutually Exclusive Events</md:title>
+  <md:abstract>Probability: Independent and Mutually Exclusive Events is part of the collection col10555 written by Barbara Illowsky and Susan Dean and explains the concept of independent events, where the probability of event A does not have any effect on the probability of event B, and mutually exclusive events, where events A and B cannot occur at the same time.  The module has contributions from Roberta Bloom.</md:abstract>
+  <md:uuid>c3f814f8-546c-4fdd-8cb9-86a77ba5e209</md:uuid>
+</metadata>
+
+<content>
+    <para id="element-755">Independent and mutually exclusive do <emphasis>not</emphasis> mean the same thing. </para><section id="element-20"><title>Independent Events</title><para id="element-990">Two events are independent if the following are true:</para><list id="element-344" list-type="bulleted"><item><m:math><m:mi>P(A|B) = P(A)</m:mi></m:math></item>
+	<item><m:math><m:mi>P(B|A) = P(B)</m:mi></m:math></item>
+	<item><m:math><m:mi>P(A AND B) = P(A) ⋅ P(B)</m:mi></m:math></item></list><para id="delete_me">Two events <m:math><m:mi>A</m:mi></m:math> and <m:math><m:mi>B</m:mi></m:math>  are <term target-id="indevents">independent</term> if the knowledge that one occurred does not affect the chance the other occurs. For example, the outcomes of two roles of a fair die are independent events.
+The outcome of the first roll does not change the probability for the outcome of the second
+roll. To show two events are independent, you must show <emphasis>only one</emphasis> of the above conditions. If two events are NOT independent, then we say that they are <emphasis>dependent</emphasis>.</para><para id="element-405">Sampling may be done <emphasis>with replacement</emphasis> or <emphasis>without replacement</emphasis>. </para><list id="element-982" list-type="bulleted"><item><emphasis>With replacement</emphasis>: If each member of a population is replaced after it is picked, then that member has the possibility of being chosen more than once. When sampling is done with replacement, then events are considered to be independent, meaning the result of the first pick will not change the probabilities for the second pick. </item>
+<item><emphasis>Without replacement:</emphasis>:  When sampling is done without replacement, then each member of a population may be chosen only once. In this case, the probabilities for the second pick are affected by the result of the first pick. The events are considered to be dependent or not independent.</item>
+</list><para id="element-835">If it is not known whether <m:math><m:mi>A</m:mi></m:math> and <m:math><m:mi>B</m:mi></m:math> are independent or dependent, <emphasis>assume they
+are dependent until you can show otherwise</emphasis>.</para>   
+</section><section id="element-462"><title>Mutually Exclusive Events</title><para id="element-548"><m:math><m:mi>A</m:mi></m:math> and <m:math><m:mi>B</m:mi></m:math> are <term target-id="mutex">mutually exclusive</term> events if they cannot occur at the same time. This means
+that <m:math><m:mi>A</m:mi></m:math> and <m:math><m:mi>B</m:mi></m:math> do not share any outcomes and <m:math><m:mtext>P(A AND B)</m:mtext> <m:mo>=</m:mo><m:mn> 0</m:mn></m:math>.
+</para><para id="element-810">For example, suppose the sample space <m:math><m:mi>S = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}</m:mi></m:math>. Let <m:math><m:mi>A = {1, 2, 3, 4, 5}, B = {4, 5, 6, 7, 8}</m:mi></m:math>, and <m:math><m:mi>C = {7, 9}</m:mi></m:math>. <m:math><m:mtext>A AND B</m:mtext><m:mo> =</m:mo> <m:mo>{</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn> 5</m:mn><m:mo>}</m:mo></m:math>. <m:math><m:mtext>P(A AND B) = </m:mtext></m:math> <m:math><m:mfrac>
+    <m:mn>2</m:mn>
+    <m:mn>10</m:mn>
+  </m:mfrac> </m:math>and is not equal to zero. Therefore, <m:math><m:mi>A</m:mi></m:math> and <m:math><m:mi>B</m:mi></m:math> are not mutually exclusive. <m:math><m:mi>A</m:mi></m:math> and <m:math><m:mi>C</m:mi></m:math> do not have any numbers in common so
+<m:math><m:mtext>P(A AND C) = 0</m:mtext></m:math>. Therefore, <m:math><m:mi>A</m:mi></m:math> and <m:math><m:mi>C</m:mi></m:math> are mutually exclusive.</para></section>
+
+
+
+<para id="element-529">If it is not known whether A and B are mutually exclusive, <emphasis>assume they are not until you can show otherwise</emphasis>.
+</para>
+
+
+
+<para id="element-792">The following examples illustrate these definitions and terms.</para>
+
+<example id="element-931"><para id="element-482">Flip two fair coins. (This is an experiment.) </para><para id="element-956">The sample space is <m:math><m:mi>{HH, HT, TH, TT}</m:mi></m:math> where <m:math><m:mi>T</m:mi></m:math> = tails and <m:math><m:mi>H</m:mi></m:math> = heads. The outcomes
+are <m:math><m:mi>HH</m:mi></m:math>, <m:math><m:mi>HT</m:mi></m:math>, <m:math><m:mi>TH</m:mi></m:math>, and <m:math><m:mi>TT</m:mi></m:math>. The outcomes <m:math><m:mi>HT</m:mi></m:math> and <m:math><m:mi>TH</m:mi></m:math> are different. The <m:math><m:mi>HT</m:mi></m:math> means that
+the first coin showed heads and the second coin showed tails. The <m:math><m:mi>TH</m:mi></m:math> means that the first coin showed tails and the second coin showed heads.</para><list id="element-96" list-type="bulleted"><item>Let <m:math><m:mi>A</m:mi></m:math> = the event of getting <emphasis>at most one tail</emphasis>. (At most one tail means 0 or 1 tail.)
+Then <m:math><m:mi>A</m:mi></m:math> can be written as <m:math><m:mi>{HH, HT, TH}</m:mi></m:math>. The outcome <m:math><m:mi>HH</m:mi></m:math> shows 0 tails. <m:math><m:mi>HT</m:mi></m:math> and
+<m:math><m:mi>TH</m:mi></m:math> each show 1 tail.</item>
+
+<item>Let <m:math><m:mi>B</m:mi></m:math> = the event of getting all tails. <m:math><m:mi>B</m:mi></m:math> can be written as <m:math><m:mi>{TT}</m:mi></m:math>. <m:math><m:mi>B</m:mi></m:math> is the <emphasis>complement</emphasis> of
+<m:math><m:mi>A</m:mi></m:math>. So, <m:math><m:mi>B = A'</m:mi></m:math>. Also, <m:math><m:mi>P(A) + P(B) = P(A) + P(A') = 1</m:mi></m:math>.</item>
+	
+
+<item>The probabilities for <m:math><m:mi>A</m:mi></m:math> and for <m:math><m:mi>B</m:mi></m:math> are <m:math><m:mi>P(A)</m:mi><m:mo> =</m:mo><m:mfrac>
+    <m:mn>3</m:mn>
+    <m:mn>4</m:mn>
+  </m:mfrac></m:math> and <m:math><m:mi>P(B)</m:mi> <m:mo>=</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>4</m:mn>
+  </m:mfrac></m:math>.</item>
+	
+
+<item>Let <m:math><m:mi>C</m:mi></m:math> = the event of getting all heads. <m:math><m:mi>C = {HH}</m:mi></m:math>. Since <m:math><m:mi>B = {TT}</m:mi></m:math>, <m:math><m:mi>P(B AND C) = 0</m:mi></m:math>. <m:math><m:mi>B</m:mi></m:math>
+and <m:math><m:mi>C</m:mi></m:math> are mutually exclusive. (<m:math><m:mi>B</m:mi></m:math> and <m:math><m:mi>C</m:mi></m:math> have no members in common because you
+cannot have all tails and all heads at the same time.)</item>
+	
+
+<item>Let <m:math><m:mi>D</m:mi></m:math> = event of getting <emphasis>more than one</emphasis> tail. <m:math><m:mi>D</m:mi><m:mo> =</m:mo> <m:mi>{TT}</m:mi></m:math>. <m:math><m:mi>P(D)</m:mi> <m:mo>=</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>4</m:mn>
+  </m:mfrac></m:math>.</item>
+	
+
+<item>Let <m:math><m:mi>E</m:mi></m:math> = event of getting a head on the first roll. (This implies you can get either a head
+or tail on the second roll.) <m:math><m:mi>E</m:mi> <m:mo>=</m:mo> <m:mo>{</m:mo><m:mi>HT</m:mi><m:mo>,</m:mo><m:mi> HH</m:mi><m:mo>}</m:mo></m:math>. <m:math><m:mi>P(E)</m:mi><m:mo> =</m:mo><m:mfrac>
+    <m:mn>2</m:mn>
+    <m:mn>4</m:mn>
+  </m:mfrac></m:math>.</item>
+	
+
+<item>Find the probability of getting <emphasis>at least one</emphasis> (1 or 2) tail in two flips. Let <m:math><m:mi>F</m:mi></m:math> = event of
+getting at least one tail in two flips. <m:math><m:mi>F</m:mi><m:mo>=</m:mo> <m:mo>{</m:mo><m:mi>HT</m:mi><m:mo>,</m:mo><m:mi> TH</m:mi><m:mo>,</m:mo><m:mi> TT</m:mi><m:mo>}</m:mo></m:math>. <m:math><m:mtext>P(F)</m:mtext><m:mo> =</m:mo> <m:mfrac>
+    <m:mn>3</m:mn>
+    <m:mn>4</m:mn>
+  </m:mfrac></m:math></item></list></example>
+<example id="element-56"><para id="example-3-2-para">Roll one fair 6-sided die. The sample space is <m:math><m:mi>{1, 2, 3, 4, 5, 6}</m:mi></m:math>.
+Let event <m:math><m:mi>A</m:mi></m:math> = a face is odd. Then <m:math><m:mi>A = {1, 3, 5}</m:mi></m:math>. Let event <m:math><m:mi>B</m:mi></m:math> = a face is even.
+Then <m:math><m:mi>B = {2, 4, 6}</m:mi></m:math>.</para><list id="element-677" list-type="bulleted"><item>Find the complement of <m:math><m:mi>A</m:mi></m:math>, <m:math><m:mi>A'</m:mi></m:math>. The complement of <m:math><m:mi>A</m:mi></m:math>, <m:math><m:mi>A'</m:mi></m:math>, is <m:math><m:mi>B</m:mi></m:math> because <m:math><m:mi>A</m:mi></m:math> and
+<m:math><m:mi>B</m:mi></m:math> together make up the sample space. <m:math><m:mtext>P(A) + P(B) = P(A) + P(A') = 1</m:mtext></m:math>.
+Also, <m:math><m:mtext>P(A)</m:mtext> <m:mo>=</m:mo><m:mfrac>
+    <m:mn>3</m:mn>
+    <m:mn>6</m:mn>
+  </m:mfrac></m:math> and <m:math><m:mtext>P(B)</m:mtext> <m:mo>=</m:mo><m:mfrac>
+    <m:mn>3</m:mn>
+    <m:mn>6</m:mn>
+  </m:mfrac></m:math></item>
+
+<item>Let event <m:math><m:mi>C</m:mi></m:math> = odd faces larger than 2. Then <m:math><m:mi>C</m:mi> <m:mo>=</m:mo> <m:mo>{</m:mo><m:mn>3</m:mn><m:mo>,</m:mo> <m:mn>5</m:mn><m:mo>}</m:mo></m:math>. Let event <m:math><m:mi>D</m:mi></m:math> = all even
+faces smaller than 5. Then <m:math><m:mi>D</m:mi><m:mo> =</m:mo> <m:mo>{</m:mo><m:mn>2</m:mn><m:mo>,</m:mo> <m:mn>4</m:mn><m:mo>}</m:mo></m:math>. <m:math><m:mtext>P(C and D)</m:mtext><m:mo> =</m:mo> <m:mn>0</m:mn></m:math> because you cannot have an
+odd and even face at the same time. Therefore, <m:math><m:mi>C</m:mi></m:math> and <m:math><m:mi>D</m:mi></m:math> are mutually exclusive
+events.</item>
+
+
+<item>Let event <m:math><m:mi>E</m:mi></m:math> = all faces less than 5. <m:math><m:mi>E</m:mi><m:mo> =</m:mo> <m:mo>{</m:mo><m:mn>1</m:mn><m:mo>,</m:mo> <m:mn>2</m:mn><m:mo>,</m:mo> <m:mn>3</m:mn><m:mo>,</m:mo> <m:mn>4</m:mn><m:mo>}</m:mo></m:math>. 
+
+<exercise id="element-12341">
+<problem id="id9852986">
+<para id="element-73455">
+Are <m:math><m:mi>C</m:mi></m:math> and <m:math><m:mi>E</m:mi></m:math> mutually
+exclusive events? (Answer yes or no.) Why or why not?</para>
+</problem>
+<solution id="id10118020" print-placement="end">
+<para id="element-032545">No.  <m:math><m:mi>C</m:mi></m:math> = <m:math><m:mi>{3, 5}</m:mi></m:math> and <m:math><m:mi>E</m:mi></m:math> = <m:math><m:mi>{1, 2, 3, 4}</m:mi></m:math>. <m:math><m:mi>P(C AND E)</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac></m:math>. To be mutually exclusive, <m:math><m:mi>P(C AND E)</m:mi></m:math> must be 0.
+</para>
+</solution>
+</exercise>
+</item>
+<item><m:math><m:mtext>Find P(C|A)</m:mtext></m:math>. This is a conditional. Recall that the event <m:math><m:mi>C</m:mi></m:math> is 
+ 
+<m:math><m:mi>{3, 5}</m:mi></m:math>
+
+and event <m:math><m:mi>A</m:mi></m:math> is
+
+<m:math><m:mi>{1, 3, 5}</m:mi></m:math>. To find <m:math><m:mtext>P(C|A)</m:mtext></m:math>, find the probability of <m:math><m:mi>C</m:mi></m:math> using the sample space <m:math><m:mi>A</m:mi></m:math>. You
+have reduced the sample space from the original sample space 
+
+<m:math><m:mi>{1, 2, 3, 4, 5, 6}</m:mi></m:math>
+
+
+ to <m:math><m:mi>{1, 3, 5}</m:mi></m:math>. So, <m:math><m:mtext>P(C|A)</m:mtext><m:mo> =</m:mo>  <m:mfrac>
+    <m:mn>2</m:mn>
+    <m:mn>3</m:mn>
+  </m:mfrac></m:math></item></list>
+</example>
+<example id="element-579"><para id="example-3-3-para">Let event <m:math><m:mi>G</m:mi></m:math> = taking a math class. Let event <m:math><m:mi>H</m:mi></m:math> = taking a science class. Then, <m:math><m:mi>G AND H</m:mi></m:math> = taking a math class and a science class.  Suppose <m:math><m:mtext>P(G)</m:mtext><m:mo> =</m:mo> <m:mn>0.6</m:mn></m:math>, <m:math><m:mtext>P(H)</m:mtext><m:mo>= </m:mo><m:mn>0.5</m:mn></m:math>, and <m:math><m:mtext>P(G AND H)</m:mtext><m:mo> =</m:mo><m:mn> 0.3</m:mn></m:math>. Are <m:math><m:mi>G</m:mi></m:math> and <m:math><m:mi>H</m:mi></m:math> independent?</para><para id="element-456">If <m:math><m:mi>G</m:mi></m:math> and <m:math><m:mi>H</m:mi></m:math> are independent, then you must show <emphasis>ONE</emphasis> of the following:</para><list id="element-358" list-type="bulleted"><item><m:math><m:mtext>P(G|H)</m:mtext><m:mo> = </m:mo><m:mtext>P(G)</m:mtext></m:math></item>
+<item><m:math><m:mtext>P(H|G)</m:mtext><m:mo> = </m:mo><m:mtext>P(H)</m:mtext></m:math></item>
+<item><m:math><m:mtext>P(G AND H)</m:mtext><m:mo>=</m:mo></m:math>  <m:math><m:mtext>P(G)</m:mtext><m:mo>⋅</m:mo><m:mtext>P(H)</m:mtext></m:math></item></list><note id="id9660801"><emphasis>The choice you make depends on the information you have.</emphasis> You could choose any of
+the methods here because you have the necessary information.</note>
+
+ <exercise id="element-3525"><problem id="id9660827">
+   <para id="element-52356">Show that 
+     <m:math><m:mtext>P(G|H)</m:mtext><m:mo> = </m:mo><m:mtext>P(G)</m:mtext></m:math>.
+   </para>
+  </problem>
+ 
+<solution id="id9660856">
+ <para id="element-2355">
+   <m:math>
+    <m:mtext>P(G|H)</m:mtext>
+    <m:mo> = </m:mo>
+    <m:mfrac>
+     <m:mtext>P(G AND H)</m:mtext>
+     <m:mtext>P(H)</m:mtext>
+    </m:mfrac>
+    <m:mo> = </m:mo>
+    <m:mfrac>
+     <m:mn>0.3</m:mn>
+     <m:mn>0.5</m:mn>
+    </m:mfrac>
+    <m:mo> = </m:mo>
+    <m:mn>0.6</m:mn>
+    <m:mo> = </m:mo>
+    <m:mtext>P(G)</m:mtext>
+   </m:math>
+ </para>
+</solution></exercise>
+
+ <exercise id="element-32525"><problem id="id9660930">
+   <para id="element-52456">
+Show <m:math><m:mtext>P(G AND H)</m:mtext><m:mo>=</m:mo></m:math>  <m:math><m:mtext>P(G)</m:mtext><m:mo>⋅</m:mo><m:mtext>P(H)</m:mtext></m:math>.
+   </para>
+  </problem>
+ 
+<solution id="id9660965">
+ <para id="element-3462"><m:math>
+   <m:mi>P(G)</m:mi>
+   <m:mo>⋅</m:mo>
+   <m:mi>P(H)</m:mi>
+   <m:mo> = </m:mo>
+   <m:mn>0.6</m:mn>
+   <m:mo>⋅</m:mo>
+   <m:mn>0.5</m:mn>
+   <m:mo> = </m:mo>
+   <m:mn>0.3</m:mn>
+   <m:mo> = </m:mo>
+   <m:mtext>P(G AND H)</m:mtext>
+
+  </m:math>
+ </para>
+</solution></exercise>
+
+<para id="element-798">Since <m:math><m:mi>G</m:mi></m:math> and <m:math><m:mi>H</m:mi></m:math> are independent, then, knowing that a person is taking a science class does
+not change the chance that he/she is taking math. If the two events had not been
+independent (that is, they are dependent) then knowing that a person is taking a science
+class would change the chance he/she is taking math. For practice, show that <m:math><m:mtext>P(H|G)</m:mtext><m:mo> = </m:mo><m:mtext>P(H)</m:mtext></m:math> to show that <m:math><m:mi>G</m:mi></m:math> and <m:math><m:mi>H</m:mi></m:math> are independent events.</para>
+</example>
+<example id="element-184"><para id="example-3-4-para">In a box there are 3 red cards and 5 blue cards. The red cards are
+marked with the numbers 1, 2, and 3, and the blue cards are marked with the numbers 1, 2, 3,
+4, and 5. The cards are well-shuffled. You reach into the box (you cannot see into it) and
+draw one card.</para><para id="element-713">Let <m:math><m:mi>R</m:mi></m:math> = red card is drawn, <m:math><m:mi>B</m:mi></m:math> = blue card is drawn, <m:math><m:mi>E</m:mi></m:math> = even-numbered card is drawn.</para><para id="element-541">The sample space
+
+<m:math><m:mi>S</m:mi>
+        <m:mo> = </m:mo>
+        <m:mtext>R1, R2, R3, B1, B2, B3, B4, B5</m:mtext>
+</m:math>. <m:math><m:mi>S</m:mi></m:math> has 8 outcomes.</para>
+
+<list id="element-131" list-type="bulleted">
+<item>
+<m:math>
+    <m:mtext>P(R)</m:mtext> 
+    <m:mo>=</m:mo>  
+    <m:mfrac>
+     <m:mn>3</m:mn>
+     <m:mn>8</m:mn>
+    </m:mfrac>
+</m:math>. 
+<m:math>
+    <m:mtext>P(B)</m:mtext> 
+    <m:mo>=</m:mo>  
+    <m:mfrac>
+     <m:mn>5</m:mn>
+     <m:mn>8</m:mn>
+    </m:mfrac>
+</m:math>. 
+<m:math>
+    <m:mtext>P(R AND B)</m:mtext> 
+    <m:mo>=</m:mo> 
+    <m:mn>0</m:mn>
+</m:math>. (You cannot draw one card that is both
+red and blue.)</item>
+<item><m:math><m:mtext>P(E)</m:mtext> <m:mo>=</m:mo>  <m:mfrac>
+    <m:mn>3</m:mn>
+    <m:mn>8</m:mn>
+  </m:mfrac></m:math>. (There are 3 even-numbered cards, <m:math><m:mi>R2</m:mi></m:math>, <m:math><m:mi>B2</m:mi></m:math>, and <m:math><m:mi>B4</m:mi></m:math>.)</item>
+
+<item><m:math><m:mtext>P(E|B)</m:mtext> <m:mo>=</m:mo>  <m:mfrac>
+    <m:mn>2</m:mn>
+    <m:mn>5</m:mn>
+  </m:mfrac></m:math>. (There are 5 blue cards: <m:math><m:mi>B1</m:mi></m:math>, <m:math><m:mi>B2</m:mi></m:math>, <m:math><m:mi>B3</m:mi></m:math>, <m:math><m:mi>B4</m:mi></m:math>, and <m:math><m:mi>B5</m:mi></m:math>. Out of the blue cards,
+there are 2 even cards: <m:math><m:mi>B2</m:mi></m:math> and <m:math><m:mi>B4</m:mi></m:math>.)</item>
+
+<item><m:math><m:mtext>P(B|E)</m:mtext> <m:mo>=</m:mo> <m:mfrac>
+    <m:mn>2</m:mn>
+    <m:mn>3</m:mn>
+  </m:mfrac></m:math>. (There are 3 even-numbered cards: <m:math><m:mi>R2</m:mi></m:math>, <m:math><m:mi>B2</m:mi></m:math>, and <m:math><m:mi>B4</m:mi></m:math>. Out of the
+even-numbered cards, 2 are blue: <m:math><m:mi>B2</m:mi></m:math> and <m:math><m:mi>B4</m:mi></m:math>.)</item>
+<item>The events <m:math><m:mi>R</m:mi></m:math> and <m:math><m:mi>B</m:mi></m:math> are mutually exclusive because <m:math><m:mtext>P(R AND B)</m:mtext><m:mo> =</m:mo><m:mn> 0</m:mn></m:math>.</item>
+
+<item>Let <m:math><m:mi>G</m:mi></m:math> = card with a number greater than 3. <m:math><m:mi>G</m:mi><m:mo> =</m:mo> <m:mo>{</m:mo><m:mi>B4</m:mi><m:mo>,</m:mo> <m:mi>B5</m:mi><m:mo>}</m:mo></m:math>. <m:math><m:mtext>P(G)</m:mtext> <m:mo>=</m:mo>  <m:mfrac>
+    <m:mn>2</m:mn>
+    <m:mn>8</m:mn>
+  </m:mfrac></m:math>.
+Let <m:math><m:mi>H</m:mi></m:math> = blue card numbered between 1 and 4, inclusive. <m:math><m:mi>H</m:mi><m:mo> =</m:mo> <m:mo>{</m:mo><m:mi>B1</m:mi><m:mo>,</m:mo><m:mi>B2</m:mi><m:mo>,</m:mo><m:mi>B3</m:mi><m:mo>,</m:mo> <m:mi>B4</m:mi><m:mo>}</m:mo></m:math>.
+<m:math><m:mtext>P(G|H)</m:mtext> <m:mo>=</m:mo> <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>4</m:mn>
+  </m:mfrac></m:math>. (The only card in H that has a number greater than 3 is <m:math><m:mi>B4</m:mi></m:math>.)
+Since <m:math> <m:mfrac>
+    <m:mn>2</m:mn>
+    <m:mn>8</m:mn>
+  </m:mfrac><m:mo> =</m:mo> <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>4</m:mn>
+  </m:mfrac></m:math>, <m:math><m:mtext>P(G)</m:mtext><m:mo> =</m:mo> <m:mtext>P(G|H)</m:mtext></m:math> which means that <m:math><m:mi>G</m:mi></m:math> and <m:math><m:mi>H</m:mi></m:math> are independent.</item>
+</list>
+</example><example id="eip-31"><para id="eip-311">In a particular college class, 60% of the students are female.   50 % of all students in the class have long hair.   45% of the students are female and have long hair.	Of the female students, 75% have long hair.
+Let F be the event that the student is female. Let L be the event that the student has long hair.  One student is picked randomly.
+Are the events of being female and having long hair independent?
+</para><list id="eip-637"><item>The following probabilities are given in this example:</item>
+<item> <m:math><m:mtext>P(F )</m:mtext><m:mo> =</m:mo><m:mn> 0.60</m:mn></m:math> ;  <m:math><m:mtext>P(L )</m:mtext><m:mo> =</m:mo><m:mn> 0.50</m:mn></m:math></item>
+<item> <m:math><m:mtext>P(F AND L)</m:mtext><m:mo> =</m:mo><m:mn> 0.45</m:mn></m:math></item>
+<item> <m:math><m:mtext>P(L|F)</m:mtext><m:mo> =</m:mo><m:mn> 0.75</m:mn></m:math></item></list><note id="eip-843"><emphasis>The choice you make depends on the information you have.</emphasis> You could use the first or last condition on the list for this example.  You do not know P(F|L) yet, so you can not use the second condition.</note><para id="eip-166"><title>Solution 1</title>Check whether P(F and L) = P(F)P(L): We are given that P(F and L) = 0.45 ; but P(F)P(L) = (0.60)(0.50)= 0.30  The events of being female and having long hair are not independent because P(F and L) does not equal P(F)P(L).</para><para id="eip-669"><title>Solution 2</title>check whether P(L|F) equals P(L): We are given that P(L|F) = 0.75 but P(L) = 0.50; they are not equal.  The events of being female and having long hair are not independent.</para><para id="eip-103"><title>Interpretation of Results</title>The events of being female and having long hair are not independent; knowing that a student is female changes the probability that a student has long hair.</para>
+</example><para id="eip-165">**Example 5 contributed by Roberta Bloom</para>
+
+  </content>
+
+<glossary>
+<definition id="indevents">
+    <term>Independent Events</term>
+    <meaning id="id9683146">
+   The occurrence of one event has no effect on the probability of the occurrence of any other event. Events A and B are independent if one of the following is true: (1). <m:math><m:mi>P</m:mi>
+  <m:mo>(</m:mo>
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mn>|</m:mn>
+  </m:mrow>
+  <m:mi>B</m:mi>
+  <m:mo>)</m:mo>
+  <m:mo>=</m:mo>
+  <m:mi>P</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>A</m:mi>
+  <m:mo>)</m:mo>
+  <m:mo>;</m:mo></m:math> (2) <m:math><m:mi>P</m:mi>
+  <m:mo>(</m:mo>
+  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mn>|</m:mn>
+  </m:mrow>
+  <m:mi>A</m:mi>
+  <m:mo>)</m:mo>
+  <m:mo>=</m:mo>
+  <m:mi>P</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>B</m:mi>
+  <m:mo>)</m:mo>
+  <m:mo>;</m:mo></m:math> (3) <m:math> <m:mi>P</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>A</m:mi>
+  <m:mi>and</m:mi>
+  <m:mi>B</m:mi>
+  <m:mo>)</m:mo>
+  <m:mo>=</m:mo>
+  <m:mi>P</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>A</m:mi>
+  <m:mo>)</m:mo>
+  <m:mi>P</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>B</m:mi>
+  <m:mo>)</m:mo></m:math>.
+    </meaning>
+  </definition>
+
+<definition id="mutex">
+    <term>Mutually Exclusive</term>
+    <meaning id="id9683312">
+   An observation cannot fall into more than one class (category). Being in more than one category prevents being in a mutually exclusive category.
+    </meaning>
+  </definition>
+
+</glossary>
+  
+</document>

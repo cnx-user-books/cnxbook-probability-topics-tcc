@@ -1,0 +1,232 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Probability Topics: Terminology</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m65308</md:content-id>
+  <md:title>Probability Topics: Terminology</md:title>
+  <md:abstract>Probability: Terminology is part of the collection col10555 written by Barbara Illowsky and Susan Dean defines key terms related to Probability and has contributions from Roberta Bloom.</md:abstract>
+  <md:uuid>c4453f68-0b1c-43cc-8384-f833a185f57a</md:uuid>
+</metadata>
+
+<content>
+    <para id="delete_me">Probability is a measure that is associated with how certain we are of outcomes of a particular experiment or activity. An <term target-id="experiment">experiment</term> is a planned operation carried out under controlled
+conditions. If the result is not predetermined, then the experiment is said to be a <emphasis>chance</emphasis>
+experiment. Flipping one fair coin twice is an example of an experiment.
+
+</para><para id="element-71">The result of an experiment is called an <term target-id="outcome">outcome</term>. A <term target-id="samplesp">sample space</term> is a set of all possible
+outcomes. Three ways to represent a sample space are to list the possible outcomes, to
+create a tree diagram, or to create a Venn diagram. The uppercase letter <m:math><m:mi>S</m:mi></m:math> is used to
+denote the sample space. For example, if you flip one fair coin, <m:math><m:mi>S = {H, T}</m:mi></m:math> where <m:math><m:mi>H</m:mi></m:math> =
+heads and <m:math><m:mi>T</m:mi></m:math> = tails are the outcomes.</para><para id="element-214">An <term target-id="event">event</term> is any combination of outcomes. Upper case letters like <m:math><m:mi>A</m:mi></m:math> and <m:math><m:mi>B</m:mi></m:math> represent
+events. For example, if the experiment is to flip one fair coin, event <m:math><m:mi>A</m:mi></m:math> might be getting at
+most one head. The probability of an event <m:math><m:mi>A</m:mi></m:math> is written <m:math><m:mi>P(A)</m:mi></m:math>.</para><para id="element-544">The <term>probability</term> of any outcome is the <emphasis>long-term relative frequency</emphasis> of that outcome.
+<emphasis>Probabilities are between 0 and 1, inclusive</emphasis>
+(includes 0 and 1 and all numbers between these values). <m:math><m:mi>P(A) = 0</m:mi></m:math> means the event <m:math><m:mi>A</m:mi></m:math> can
+never happen. <m:math><m:mi>P(A) = 1</m:mi></m:math> means the event <m:math><m:mi>A</m:mi></m:math> always happens.  <m:math><m:mi>P(A) = 0.5</m:mi></m:math> means the event <m:math><m:mi>A</m:mi></m:math> is equally likely to occur or not to occur. For example, if you flip one fair coin repeatedly (from 20 to 2,000 to 20,000 times) the relative fequency of heads approaches 0.5 (the probability of heads).</para><para id="eip-516"><term>Equally likely</term> means that each outcome of an experiment occurs with equal probability. For
+example, if you toss a <emphasis>fair</emphasis>, six-sided die, each face (1, 2, 3, 4, 5, or 6) is as likely to occur as
+any other face. If you toss a fair coin, a Head(H) and a Tail(T) are equally likely to occur.  If you randomly guess the answer to a true/false question on an exam, you are equally likely to select a correct answer or an incorrect answer.</para><para id="element-677"><emphasis>To calculate the probability of an event <m:math><m:mi>A</m:mi></m:math> when all outcomes in the sample space are equally likely</emphasis>, count the number of outcomes for event A and divide by the
+total number of outcomes in the sample space. For example, if you toss a fair dime and a fair nickel, the
+sample space is <m:math><m:mi>{HH, TH, HT, TT}</m:mi></m:math> where <m:math><m:mi>T</m:mi></m:math> = tails and <m:math><m:mi>H</m:mi></m:math> = heads. The sample space has four
+outcomes. <m:math><m:mi>A</m:mi></m:math> = getting one head. There are two outcomes <m:math><m:mi>{HT, TH}</m:mi></m:math>. <m:math><m:mi>P(A) =  </m:mi><m:mfrac>
+    <m:mn>2</m:mn>
+    <m:mn>4</m:mn>
+  </m:mfrac></m:math>.</para><para id="eip-405">Suppose you roll one fair six-sided die, with the numbers {1,2,3,4,5,6} on its faces. Let event <m:math><m:mi>E</m:mi></m:math> = rolling a number that is at least 5. There are two outcomes <m:math><m:mi>{5, 6}</m:mi></m:math>. <m:math><m:mi>P(E) =  </m:mi><m:mfrac>
+    <m:mn>2</m:mn>
+    <m:mn>6</m:mn>
+  </m:mfrac></m:math>.
+If you were to roll the die only a few times, you would not be surprised if your observed results did not match the probability. If you were to roll the die a very large number of times, you would expect that, overall, 2/6 of the rolls would result in an outcome of "at least 5".  You would not expect exactly 2/6.  The long-term relative frequency of obtaining this result would approach the theoretical probability of 2/6 as the number of repetitions grows larger and larger.  </para><para id="eip-664">This important characteristic of probability experiments is the known as the <emphasis>Law of Large Numbers</emphasis>: as the number of repetitions of an experiment is increased, the relative frequency  obtained in the experiment tends to become closer and closer to the theoretical probability.  Even though the outcomes don't happen according to any set pattern or order, overall, the long-term observed relative frequency will approach the theoretical probability.  (The word <emphasis> empirical </emphasis> is often used  instead of the word observed.) The Law of Large Numbers will be discussed again in Chapter 7.   </para><para id="eip-407">It is important to realize that in many situations, the outcomes are not equally likely. A coin or die may be <emphasis>unfair</emphasis>, or <emphasis>biased </emphasis>. Two math professors in Europe had their statistics students test the Belgian 1 Euro coin and discovered that in 250 trials, a head was obtained 56% of the time and a tail was obtained 44% of the time.  The data seem to show that the coin is not a fair coin; more repetitions would be helpful to draw a more accurate conclusion about such bias. Some dice may be biased. Look at the dice in a game you have at home; the spots on each face are usually small holes carved out and then painted to make the spots visible. Your dice may or may not be biased; it is possible that the outcomes may be affected by the slight weight differences due to the different numbers of holes in the faces.  Gambling casinos have a lot of money depending on outcomes from rolling dice, so casino dice are made differently to eliminate bias. Casino dice have flat faces; the holes are completely filled with paint having the same density as the material that the dice are made out of so that each face is equally likely to occur. Later in this chapter we will learn techniques to use to work with probabilities for events that are not equally likely.</para><para id="element-189"><title>"OR" Event:</title>An outcome is in the event <m:math><m:mi>A</m:mi><m:mtext> </m:mtext><m:mo>OR</m:mo><m:mtext> </m:mtext><m:mi>B</m:mi></m:math> if the outcome is in <m:math><m:mi>A</m:mi></m:math> or is in <m:math><m:mi>B</m:mi></m:math> or is in both <m:math><m:mi>A</m:mi></m:math> and <m:math><m:mi>B</m:mi></m:math>.
+For example, let <m:math><m:mi>A = {1, 2, 3, 4, 5}</m:mi></m:math> and <m:math><m:mi>B = {4, 5, 6, 7, 8}</m:mi></m:math>. <m:math><m:mi>A</m:mi><m:mtext> </m:mtext><m:mo>OR</m:mo><m:mtext> </m:mtext><m:mi>B </m:mi><m:mo>=</m:mo><m:mi> {1, 2, 3, 4, 5, 6, 7, 8}</m:mi></m:math>. Notice that 4 and 5 are NOT listed twice.</para><para id="element-713"><title>"AND" Event:</title>An outcome is in the event <m:math><m:mtext>A AND B</m:mtext></m:math> if the outcome is in both <m:math><m:mi>A</m:mi></m:math> and <m:math><m:mi>B</m:mi></m:math> at the same
+time.
+
+ For example, let <m:math><m:mi>A</m:mi></m:math> and <m:math><m:mi>B</m:mi></m:math> be <m:math><m:mi>{1, 2, 3, 4, 5}</m:mi></m:math> and <m:math><m:mi>{4, 5, 6, 7, 8}</m:mi></m:math>, respectively.
+Then <m:math><m:mtext>A AND B</m:mtext> <m:mo>=</m:mo> <m:mo>{</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn> 5</m:mn><m:mo>}</m:mo></m:math>.</para><para id="element-123">The <emphasis>complement</emphasis> of event <m:math><m:mi>A</m:mi></m:math> is denoted <m:math><m:mi>A'</m:mi></m:math> (read "A prime"). <m:math><m:mi>A'</m:mi></m:math> consists of all outcomes
+that are <emphasis>NOT</emphasis> in <m:math><m:mi>A</m:mi></m:math>. Notice that <m:math><m:mi>P(A) + P(A') = 1</m:mi></m:math>. For example, let <m:math><m:mi>S = {1, 2, 3, 4, 5, 6}</m:mi></m:math>
+and let <m:math><m:mi>A = {1, 2, 3, 4}</m:mi></m:math>. Then, <m:math><m:mi>A' = {5, 6}.  P(A) = </m:mi> <m:mfrac>
+    <m:mn>4</m:mn>
+    <m:mn>6</m:mn>
+  </m:mfrac><m:mi>, P(A') = </m:mi><m:mfrac>
+    <m:mn>2</m:mn>
+    <m:mn>6</m:mn>
+  </m:mfrac><m:mi>, and P(A) + P(A') = </m:mi><m:mfrac>
+    <m:mn>4</m:mn>
+    <m:mn>6</m:mn>
+  </m:mfrac><m:mi> + </m:mi><m:mfrac>
+    <m:mn>2</m:mn>
+    <m:mn>6</m:mn>
+  </m:mfrac><m:mi> = 1</m:mi></m:math> </para><para id="element-426">The <term target-id="condprob">conditional probability</term> of <m:math><m:mi>A</m:mi></m:math> given <m:math><m:mi>B</m:mi></m:math> is written <m:math><m:mi>P(A|B)</m:mi></m:math>. 
+
+<m:math><m:mi>P(A|B)</m:mi></m:math> is the probability that event <m:math><m:mi>A</m:mi></m:math> will occur given that the event <m:math><m:mi>B</m:mi></m:math> has already occurred. 
+
+<emphasis>A conditional reduces the sample
+space</emphasis>. We calculate the probability of <m:math><m:mi>A</m:mi></m:math> from the reduced sample space <m:math><m:mi>B</m:mi></m:math>. The formula
+to calculate <m:math><m:mi>P(A|B)</m:mi></m:math> is</para><para id="element-681"><m:math><m:mi>P(A|B)=</m:mi></m:math> 
+<m:math>
+ <m:mfrac>
+    <m:mn>P(A AND B)</m:mn>
+    <m:mn>P(B)</m:mn>
+  </m:mfrac>
+  <m:mtext/>
+</m:math></para><para id="element-400">where <m:math><m:mi>P(B)</m:mi></m:math> is greater than 0.</para><para id="element-476">For example, suppose we toss one fair, six-sided die.  The sample space <m:math><m:mi>S = {1, 2, 3, 4, 5, 6}</m:mi></m:math>. Let <m:math><m:mi>A</m:mi></m:math> = face is 2 or 3 and <m:math><m:mi>B</m:mi></m:math> = face is even (2, 4, 6). To calculate <m:math><m:mi>P(A|B)</m:mi></m:math>, we count the number of outcomes 2 or 3 in the sample space <m:math><m:mi>B = {2, 4, 6}</m:mi></m:math>. Then we divide that by the number of outcomes in <m:math><m:mi>B</m:mi></m:math> (and not <m:math><m:mi>S</m:mi></m:math>). </para><para id="element-388">We get the same result by using the formula. Remember that <m:math><m:mi>S</m:mi></m:math> has 6 outcomes.</para><para id="element-179"><m:math><m:mi>P(A|B)</m:mi><m:mo>=</m:mo></m:math> 
+<m:math>
+ <m:mfrac>
+    <m:mtext>P(A and B)</m:mtext>
+    <m:mtext>P(B)</m:mtext>
+  </m:mfrac>
+  <m:mtext/>
+<m:mi>=</m:mi>
+ <m:mfrac>
+    <m:mtext>(the number of outcomes that are 2 or 3 and even in S) / 6 </m:mtext>
+    <m:mtext> (the number of outcomes that are even in S) / 6 </m:mtext>
+  </m:mfrac>
+<m:mi>=</m:mi>
+ <m:mfrac>
+    <m:mn>1/6 </m:mn>
+    <m:mn> 3/6 </m:mn>
+  </m:mfrac>
+<m:mi>=</m:mi>
+ <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>3 </m:mn>
+  </m:mfrac>
+</m:math>
+</para><para id="eip-615"><title>Understanding Terminology and Symbols</title>It is important to read each problem carefully to think about and understand what the events are. Understanding the wording is the first very important step in solving probability problems. Reread the problem several times if necessary. Clearly identify the event of interest.  Determine whether there is a condition stated in the wording that would indicate that the probability is conditional; carefully identify the condition, if any.
+</para><exercise id="eip-396"><problem id="eip-id1164326849676">
+		<para id="eip-id1164335950747">In a particular college class, there are male and female students.
+Some students have long hair and some students have short hair.
+Write the <emphasis> symbols </emphasis> for the probabilities of the events for parts (a) through (j) below. (Note that you can't find numerical answers here.  You were not given enough information to find any probability values yet; concentrate on understanding the symbols.)
+
+
+  </para><list id="eip-id1164334783998" list-type="bulleted"><item>Let F be the event that a student is female.</item>
+<item>Let M be the event that a student is male.</item>
+<item>Let S be the event that a student has short hair.</item>
+<item>Let L be the event that a student has long hair.</item></list><list id="element-533" mark-suffix="." list-type="labeled-item"><item><label>a</label> The probability that a student does not have long hair.</item>
+
+<item><label>b</label> The probability that a student is male or has short hair.</item> 
+
+<item><label>c</label> The probability that a student is a female and has long hair.</item>
+
+<item><label>d</label> The probability that a student is male, given that the student has long hair.</item>
+
+<item><label>e</label> The probability that a student has long hair, given that the student is male.</item>
+
+<item><label>f</label> Of all the female students, the probability that a student has short hair.</item>
+
+<item><label>g</label> Of all students with long hair, the probability that a student is female.</item>
+
+<item><label>h</label> The probability that a student is female or has long hair.</item> 
+
+<item><label>i</label> The probability that a randomly selected student is a male student with short hair.</item>
+
+<item><label>j</label> The probability that a student is female. </item>
+		</list></problem>
+	<solution id="eip-id1164308885144">
+		<list id="eip-id1164326073304" list-type="labeled-item" mark-suffix=".">
+<item><label>a</label> P(L')=P(S) </item>
+<item><label>b</label> P(M or S) </item>
+<item><label>c</label> P(F and L) </item>
+<item><label>d</label> P(M|L) </item>
+<item><label>e</label> P(L|M) </item>
+<item><label>f</label> P(S|F) </item>
+<item><label>g</label> P(F|L) </item>
+<item><label>h</label> P(F or L) </item>
+<item><label>i</label> P(M and S) </item>
+<item><label>j</label> P(F) </item></list>
+	</solution>
+</exercise><para id="eip-364">**With contributions from Roberta Bloom</para>   
+  </content>
+  
+
+<glossary>
+ 
+
+
+  <definition id="condprob">
+    <term>Conditional Probability</term>
+    <meaning id="id3663808">
+    The likelihood that an event will occur given that another event has already occurred.
+    </meaning>
+  </definition>
+
+
+
+
+
+  <definition id="eqlikly">
+    <term>Equally Likely</term>
+    <meaning id="id3651637">
+    Each outcome of an experiment has the same probability.
+    </meaning>
+  </definition>
+
+<definition id="experiment">
+    <term>Experiment</term>
+    <meaning id="id3579725">
+  A planned activity carried out under controlled conditions.
+    </meaning>
+  </definition>
+
+ <definition id="event">
+    <term>Event</term>
+    <meaning id="id19906185">
+     A subset in the set of all outcomes of an experiment. The set of all outcomes of an experiment is called a <emphasis>sample space</emphasis> and denoted usually by S. An event is any arbitrary subset in <emphasis>S</emphasis>. It can contain one outcome, two outcomes, no outcomes (empty subset), the entire sample space, etc. Standard notations for events are capital letters such as A, B, C, etc. 
+    </meaning>
+  </definition>
+
+
+
+<definition id="outcome">
+    <term>Outcome (observation)</term>
+    <meaning id="id3610906">
+   A particular result of an experiment.
+    </meaning>
+  </definition>
+
+ 
+<definition id="prob">
+    <term>Probability</term>
+    <meaning id="id17934331">
+A number between 0 and 1, inclusive, that gives the likelihood that a specific event will occur. The foundation of statistics is given by the following 3 axioms (by A. N. Kolmogorov, 1930’s): Let <m:math><m:mi>S</m:mi></m:math>  denote the sample space and <m:math><m:mi>A</m:mi></m:math>  and <m:math><m:mi>B</m:mi></m:math>  are two events in <m:math><m:mi>S</m:mi></m:math> . Then:
+
+<list id="fs-id6987848"> 
+<item><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">≤</m:mo><m:mi>P</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>A</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">≤</m:mo><m:mn>1</m:mn></m:mrow><m:mi>;</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0 &lt;= P \( A \)  &lt;= 1;} {}</m:annotation></m:semantics></m:math>.</item> 
+<item>If <m:math><m:mi>A</m:mi></m:math>  and <m:math><m:mi>B</m:mi></m:math>  are any two mutually exclusive events, then <m:math>  <m:mi>P</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>A</m:mi>
+  <m:mi>or</m:mi>
+  <m:mi>B</m:mi>
+  <m:mo>)</m:mo>
+  <m:mo>=</m:mo>
+  <m:mi>P</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>A</m:mi>
+  <m:mo>)</m:mo>
+  <m:mo>+</m:mo>
+  <m:mi>P</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>B</m:mi>
+  <m:mo>)</m:mo>
+  </m:math>.</item>
+<item><m:math><m:mi>P</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>S</m:mi>
+  <m:mo>)</m:mo>
+  <m:mo>=</m:mo>
+  <m:mn>1</m:mn></m:math>.</item>
+</list>
+    </meaning>
+  </definition>
+
+
+
+
+<definition id="samplesp">
+    <term>Sample Space</term>
+    <meaning id="id3455189">
+The set of all possible outcomes of an experiment.
+    </meaning>
+  </definition>
+
+ 
+
+
+</glossary>
+</document>

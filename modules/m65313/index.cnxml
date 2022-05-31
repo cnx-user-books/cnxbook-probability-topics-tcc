@@ -1,0 +1,42 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Probability Topics: Summary of Formulas</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m65313</md:content-id>
+  <md:title>Probability Topics: Summary of Formulas</md:title>
+  <md:abstract>This module provides a review of the probability formulas, including the definitions of independent, complementary, and mutually exclusive events as well as the addition and multiplication rules.</md:abstract>
+  <md:uuid>5aa6b4ba-838a-4a7d-9f76-8b24b9c13202</md:uuid>
+</metadata>
+
+<content>
+
+<rule id="r1" type="formula"><label>Formula</label><title>Compliment</title>
+
+  <statement id="id1171862822952">
+    <para id="ruleexp1">If <m:math><m:mi>A</m:mi></m:math> and <m:math><m:mi>A'</m:mi></m:math> are complements then <m:math><m:mi>P(A)</m:mi> <m:mo>+</m:mo> <m:mtext>P(A' )</m:mtext> <m:mo>=</m:mo> <m:mn>1</m:mn></m:math>
+    </para>
+  </statement>
+</rule>
+
+<rule id="r3" type="formula"><label>Formula</label><title>Mutually Exclusive</title>
+
+  <statement id="id1171863785696">
+    <para id="ruleexp3">If <m:math><m:mi>A</m:mi></m:math> and <m:math><m:mi>B</m:mi></m:math> are mutually exclusive then <m:math><m:mtext>P(A AND B)</m:mtext> <m:mo>=</m:mo> <m:mn>0</m:mn></m:math>   ; so <m:math><m:mtext>P(A OR B)</m:mtext> <m:mo>=</m:mo> <m:mtext>P(A)</m:mtext> <m:mo>+</m:mo> <m:mtext>P(B)</m:mtext></m:math>.</para>
+    <para id="ruleexp6">If <m:math><m:mi>A</m:mi></m:math> and <m:math><m:mi>B</m:mi></m:math> are NOT mutually exclusive then 
+<m:math><m:mtext>P(A OR B)</m:mtext> <m:mo>=</m:mo> <m:mtext>P(A)</m:mtext> <m:mo>+</m:mo> <m:mtext>P(B)</m:mtext> <m:mo>-</m:mo> <m:mtext>P(A AND B)</m:mtext></m:math>
+    </para>
+  </statement>
+</rule>
+
+<rule id="r5" type="formula"><label>Formula</label><title>Independence</title>
+
+  <statement id="id7083414">
+    <para id="ruleexp5">If <m:math><m:mi>A</m:mi></m:math> and <m:math><m:mi>B</m:mi></m:math> are independent then:
+    </para><list id="element-828" list-type="bulleted"><item><m:math><m:mtext>P(A|B)</m:mtext> <m:mo>=</m:mo> <m:mtext>P(A)</m:mtext></m:math></item>
+<item><m:math><m:mtext>P(B|A) </m:mtext><m:mo>=</m:mo> <m:mtext>P(B)</m:mtext></m:math></item>
+<item><m:math><m:mtext>P(A AND B)</m:mtext> <m:mo>=</m:mo> <m:mtext>P(A)</m:mtext> <m:mtext>P(B)</m:mtext></m:math></item></list>
+  </statement>
+</rule>
+
+  </content>
+  
+</document>

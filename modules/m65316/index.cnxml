@@ -1,0 +1,154 @@
+<document xmlns="http://cnx.rice.edu/cnxml" class="review">
+  <title>Probability Topics: Review</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m65316</md:content-id>
+  <md:title>Probability Topics: Review</md:title>
+  <md:abstract>This module provides a number of homework/review exercises related to Probability.</md:abstract>
+  <md:uuid>ebd4f946-2ec8-488d-83db-828421a66679</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="Probability Topics _review.pdf" strength="3">Download handout (.pdf)</link>
+      <link url="Probability Topics (review).doc" strength="3">Download handout (.doc)</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <para id="element-883"><emphasis>The first six exercises refer to the following study:</emphasis> In a survey of 100 stocks on NASDAQ, the average percent increase for the past year was 9% for NASDAQ stocks.  Answer the following: </para>
+<exercise id="element-872"><problem id="id8619721">
+  <para id="element-693">The “average increase” for all NASDAQ stocks is the: 
+  </para><para id="element-614"><list id="list132sfs43" list-type="labeled-item" mark-suffix="."><item><label>A</label>Population</item>
+<item><label>B</label>Statistic</item>
+<item><label>C</label>Parameter</item>
+<item><label>D</label>Sample</item>
+<item><label>E</label>Variable</item></list></para>
+</problem>
+
+<solution id="id8619820">
+  <para id="element-423"><list id="list2" list-type="labeled-item" mark-suffix="."><item><label>C</label> Parameter</item></list>
+  </para>
+</solution>
+</exercise><exercise id="element-428"><problem id="id8619864">
+  <para id="element-177">All of the NASDAQ stocks are the: 
+  </para><para id="element-755"><list id="liafast13243" list-type="labeled-item" mark-suffix="."><item><label>A</label>Population</item>
+<item><label>B</label>Statistic</item>
+<item><label>C</label>Parameter</item>
+<item><label>D</label>Sample</item>
+<item><label>E</label>Variable</item></list></para>
+</problem>
+
+<solution id="id8619960">
+  <para id="element-575"><list id="list3" list-type="labeled-item" mark-suffix="."><item><label>A</label> Population</item></list>
+  </para>
+</solution>
+</exercise><exercise id="element-926"><problem id="id8620006">
+  <para id="element-724">9% is the: 
+  </para><para id="element-333"><list id="listsdf13243" list-type="labeled-item" mark-suffix="."><item><label>A</label>Population</item>
+<item><label>B</label>Statistic</item>
+<item><label>C</label>Parameter</item>
+<item><label>D</label>Sample</item>
+<item><label>E</label>Variable</item></list></para>
+</problem>
+
+<solution id="id8620215">
+  <para id="element-69"><list id="list4" list-type="labeled-item" mark-suffix="."><item><label>B</label> Statistic</item></list>
+  </para>
+</solution>
+</exercise><exercise id="element-745"><problem id="id8620260">
+  <para id="element-768">The 100 NASDAQ stocks in the survey are the:
+  </para><para id="element-192"><list id="listx13243" list-type="labeled-item" mark-suffix="."><item><label>A</label>Population</item>
+<item><label>B</label>Statistic</item>
+<item><label>C</label>Parameter</item>
+<item><label>D</label>Sample</item>
+<item><label>E</label>Variable</item></list></para>
+</problem>
+
+<solution id="id8620356">
+  <para id="element-67"><list id="list5" list-type="labeled-item" mark-suffix="."><item><label>D</label> Sample</item></list></para>
+</solution>
+</exercise><exercise id="element-797"><problem id="id8620400">
+  <para id="element-112">The percent increase for one stock in the survey is the: 
+  </para>
+<para id="elementalksga"><list id="list13243" list-type="labeled-item" mark-suffix="."><item><label>A</label>Population</item>
+<item><label>B</label>Statistic</item>
+<item><label>C</label>Parameter</item>
+<item><label>D</label>Sample</item>
+<item><label>E</label>Variable</item></list></para>
+</problem>
+
+<solution id="id8620499">
+  <para id="element-234"><list id="list6" list-type="labeled-item" mark-suffix="."><item><label>E</label> Variable</item></list></para>
+</solution>
+</exercise><para id="element-846"><exercise id="exer1"><problem id="id8620552"><para id="paragraph">Would the data collected be qualitative, quantitative – discrete, or quantitative – continuous?</para></problem>
+
+<solution id="id8620570"><para id="paragraphasdfas">quantitative - continuous</para></solution></exercise></para><para id="element-723"><emphasis>The next two questions refer to the following study:</emphasis> Thirty people spent two weeks around Mardi Gras in New Orleans.  Their two-week weight gain is below.  (Note:  a loss is shown by a negative weight gain.)</para>
+ <table id="id7933576" summary="This table presents the weight gain in the first column and the frequency in the second column. There are 7 rows of data.">
+
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+<thead>
+          <row>
+            <entry>Weight Gain</entry>
+            <entry>Frequency</entry>
+          </row>
+</thead>        
+<tbody>
+
+          <row>
+            <entry>-2</entry>
+            <entry>3</entry>
+          </row>
+          <row>
+            <entry>-1</entry>
+            <entry>5</entry>
+          </row>
+          <row>
+            <entry>0</entry>
+            <entry>2</entry>
+          </row>
+          <row>
+            <entry>1</entry>
+            <entry>4</entry>
+          </row>
+          <row>
+            <entry>4</entry>
+            <entry>13</entry>
+          </row>
+          <row>
+            <entry>6</entry>
+            <entry>2</entry>
+          </row>
+          <row>
+            <entry>11</entry>
+            <entry>1</entry>
+          </row>
+        </tbody>
+      
+</tgroup>
+</table><exercise id="element-377"><problem id="id8665563">
+  <para id="element-107">Calculate the following values: 
+  </para>
+
+<list id="list1" list-type="labeled-item" mark-suffix="."><item><label>a</label>The average weight gain for the two weeks</item>
+<item><label>b</label>The standard deviation</item>
+<item><label>c</label>The first, second, and third quartiles</item>
+</list>
+</problem>
+
+<solution id="id8665631">
+  <list id="list21" list-type="labeled-item" mark-suffix="."><item><label>a</label> 2.27</item>
+<item><label>b</label> 3.04</item>
+<item><label>c</label> -1, 4, 4</item></list>
+</solution>
+</exercise><exercise id="element-330"><problem id="id8665693">
+  <para id="element-481">Construct a histogram and a boxplot of the data. 
+  </para>
+</problem>
+
+</exercise>
+  </content>
+  
+</document>

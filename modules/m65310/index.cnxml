@@ -1,0 +1,633 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Probability Topics: Contingency Tables</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m65310</md:content-id>
+  <md:title>Probability Topics: Contingency Tables</md:title>
+  <md:abstract>This module introduces the contingency table as a way of determining conditional probabilities.</md:abstract>
+  <md:uuid>4c7e3c2f-bc2c-43f6-8718-70777faf226d</md:uuid>
+</metadata>
+
+<content>
+    <para id="element-864">A <term target-id="contintable">contingency table</term> provides a way of portraying data that can facilitate calculating probabilities. The table helps in determining conditional probabilities quite easily.  The table displays sample values in relation to  two different variables that may be dependent or contingent on one another.  Later on, we will use contingency tables again, but in another manner.
+
+Contingincy tables provide a way of portraying data that can facilitate calculating probabilities.</para><example id="element-775"><para id="element-557">
+Suppose a study of speeding violations and drivers who use car phones produced the following fictional data:
+</para><table id="element-838" summary="">
+<tgroup cols="4"><thead>
+  <row>
+    <entry/>
+    <entry>Speeding violation 
+in the last year</entry>
+    <entry>No speeding violation
+in the last year</entry>
+    <entry>Total</entry>
+  </row>
+</thead>
+<tbody>
+
+  <row>
+    <entry>Car phone user</entry>
+    <entry>25</entry>
+    <entry>280</entry>
+    <entry>305</entry>
+  </row>
+  <row>
+    <entry>Not a car phone user</entry>
+    <entry>45</entry>
+    <entry>405</entry>
+    <entry>450</entry>
+  </row>
+  <row>
+    <entry>Total</entry>
+    <entry>70</entry>
+    <entry>685</entry>
+    <entry>755</entry>
+  </row>
+</tbody>
+
+
+</tgroup>
+</table>
+<para id="element-42">The total number of people in the sample is 755.   The row totals are 305 and 450.  The column totals are 70 and 685.   Notice that <m:math><m:mn>305</m:mn><m:mo> + </m:mo><m:mn>450</m:mn><m:mo> = </m:mo><m:mn>755</m:mn></m:math> and <m:math><m:mn>70</m:mn><m:mo> + </m:mo><m:mn>685</m:mn><m:mo> = </m:mo><m:mn>755</m:mn></m:math>.</para><para id="element-818">Calculate the following probabilities using the table</para>
+
+<exercise id="element-101"><problem id="id41663171">
+  <para id="element-101p">
+   <m:math><m:mtext>P(person is a car phone user) = </m:mtext></m:math>
+  </para>
+ </problem>
+ <solution id="id41663194">
+  <para id="element-101s">
+    <m:math>
+     <m:mfrac>
+      <m:mtext>number of car phone users </m:mtext>
+      <m:mtext>total number in study</m:mtext>  
+     </m:mfrac>
+     <m:mi>=</m:mi>
+     <m:mfrac>
+      <m:mn>305</m:mn>
+      <m:mn>755</m:mn>
+     </m:mfrac>
+    </m:math>
+  </para>
+ </solution>
+</exercise>
+
+<exercise id="element-102"><problem id="id41663249">
+  <para id="element-102p">
+   <m:math><m:mtext>P(person had no violation in the last year)  = </m:mtext></m:math>
+  </para>
+ </problem>
+ <solution id="id41663273">
+  <para id="element-102s">
+   <m:math>
+    <m:mfrac>
+     <m:mtext>number that had no violation</m:mtext>
+     <m:mtext>total number in study</m:mtext>  
+    </m:mfrac>
+    <m:mi>=</m:mi>
+    <m:mfrac>
+     <m:mn>685</m:mn>
+     <m:mn>755</m:mn>
+    </m:mfrac>
+   </m:math>
+  </para>
+ </solution>
+</exercise>
+
+
+<exercise id="element-103"><problem id="id41525516">
+  <para id="element-103p">
+  <m:math><m:mtext>P(person had no violation in the last year AND was a car phone user)   =</m:mtext></m:math>
+  </para>
+ </problem>
+ <solution id="id41525540">
+  <para id="element-103s">
+<m:math><m:mfrac>
+    <m:mn>280</m:mn>
+    <m:mn>755</m:mn>
+
+  </m:mfrac></m:math>
+  </para>
+ </solution>
+</exercise>
+
+
+<exercise id="element-104"><problem id="id41525579">
+  <para id="element-104p">
+  <m:math><m:mtext>P(person is a car phone user OR person had no violation in the last year)   =</m:mtext></m:math>
+  </para>
+ </problem>
+ <solution id="id41525604">
+  <para id="element-104s"><m:math>
+<m:mo>(</m:mo>
+<m:mfrac>
+    <m:mn>305</m:mn>
+    <m:mn>755</m:mn>
+  </m:mfrac><m:mi>+</m:mi>
+<m:mfrac>
+    <m:mn>685</m:mn>
+    <m:mn>755</m:mn>
+  </m:mfrac>
+<m:mo>)</m:mo><m:mi> - </m:mi>
+<m:mfrac>
+    <m:mn>280</m:mn>
+    <m:mn>755</m:mn>
+  </m:mfrac><m:mi>=</m:mi>
+<m:mfrac>
+    <m:mn>710</m:mn>
+    <m:mn>755</m:mn>
+  </m:mfrac>
+</m:math>
+  </para>
+ </solution>
+</exercise>
+
+
+<exercise id="element-105"><problem id="id41525686">
+  <para id="element-105p">
+  <m:math><m:mtext>P(person is a car phone user GIVEN person had a violation in the last year)   =  </m:mtext></m:math>
+  </para>
+ </problem>
+ <solution id="id41525710">
+  <para id="element-105s">
+<m:math><m:mfrac>
+    <m:mn>25</m:mn>
+    <m:mn>70</m:mn>
+  </m:mfrac> </m:math>
+   (The sample space is reduced to the number of persons who had a violation.)
+  </para>
+ </solution>
+</exercise>
+
+
+<exercise id="element-107"><problem id="id41525752">
+  <para id="element-107p">
+  <m:math><m:mtext>P(person had no violation last year GIVEN person was not a car phone user)   =  </m:mtext></m:math>
+  </para>
+ </problem>
+ <solution id="id41525776">
+  <para id="element-107s">
+<m:math><m:mfrac>
+    <m:mn>405</m:mn>
+    <m:mn>450</m:mn>
+  </m:mfrac> </m:math>
+(The sample space is reduced to the number of persons who were not car phone users.) 
+  </para>
+ </solution>
+</exercise>
+</example>
+<example id="element-511"><para id="element-98">The following table shows a random sample of 100 hikers and the areas of hiking preferred:
+</para><table id="element-850" summary="">
+<title>Hiking Area Preference</title>
+<tgroup cols="5"><thead>
+  <row>
+    <entry>Sex</entry>
+    <entry>The Coastline</entry>
+    <entry>Near Lakes and Streams</entry>
+    <entry>On Mountain Peaks</entry>
+    <entry>Total</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>Female</entry>
+    <entry>18</entry>
+    <entry>16</entry>
+    <entry>___</entry>
+    <entry>45</entry>
+
+  </row>
+  <row>
+    <entry>Male</entry>
+    <entry>___</entry>
+    <entry>___</entry>
+    <entry>14</entry>
+    <entry>55</entry>
+  </row>
+  <row>
+    <entry>Total</entry>
+    <entry>___</entry>
+    <entry>41</entry>
+    <entry>___</entry>
+    <entry>___</entry>
+  </row>
+</tbody>
+
+</tgroup>
+</table><exercise id="element-227">
+<problem id="id41647708">
+  <para id="element-665">
+    Complete the table.
+  </para>
+</problem>
+
+<solution id="id41647726" print-placement="end">
+ <table id="element-850s" summary="">
+<title>Hiking Area Preference</title>
+<tgroup cols="5"><thead>
+  <row>
+    <entry>Sex</entry>
+    <entry>The Coastline</entry>
+    <entry>Near Lakes and Streams</entry>
+    <entry>On Mountain Peaks</entry>
+    <entry>Total</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>Female</entry>
+    <entry>18</entry>
+    <entry>16</entry>
+    <entry><emphasis>11</emphasis></entry>
+    <entry>45</entry>
+
+  </row>
+  <row>
+    <entry>Male</entry>
+    <entry><emphasis>16</emphasis></entry>
+    <entry><emphasis>25</emphasis></entry>
+    <entry>14</entry>
+    <entry>55</entry>
+  </row>
+  <row>
+    <entry>Total</entry>
+    <entry><emphasis>34</emphasis></entry>
+    <entry>41</entry>
+    <entry><emphasis>25</emphasis></entry>
+    <entry><emphasis>100</emphasis></entry>
+  </row>
+</tbody>
+
+</tgroup>
+</table>
+</solution>
+</exercise><exercise id="element-754">
+<problem id="id41524865">
+  <para id="element-891">
+    Are the events "being female" and "preferring the coastline" independent events?
+  </para>
+  <para id="element-123">
+    Let <m:math><m:mi>F</m:mi></m:math> = being female and let <m:math><m:mi>C</m:mi></m:math> = preferring the coastline.
+  </para>
+  <list id="element-1242" list-type="labeled-item" mark-suffix=".">
+   
+   <item><label>a</label><m:math><m:mtext>P(F AND C)</m:mtext></m:math> =</item>
+   <item><label>b</label><m:math><m:mi>P(F)</m:mi><m:mo> ⋅ </m:mo><m:mi>P(C)</m:mi></m:math> =</item>
+  </list>
+  <para id="element-3532">
+   Are these two numbers the same?  If they are, then <m:math><m:mi>F</m:mi></m:math> and <m:math><m:mi>C</m:mi></m:math> are independent.  If they are not, then <m:math><m:mi>F</m:mi></m:math> and <m:math><m:mi>C</m:mi></m:math> are not independent.</para>
+</problem>
+
+<solution id="id41524993" print-placement="end">
+  <list id="element-3256" mark-suffix="." list-type="labeled-item"><item><label>a</label>
+   <m:math>
+    <m:mtext>P(F AND C)</m:mtext>
+    <m:mo> = </m:mo>
+    <m:mfrac>
+     <m:mn>18</m:mn>
+     <m:mn>100</m:mn>
+    </m:mfrac>
+    <m:mo> = </m:mo>
+    <m:mn>0.18</m:mn>
+   </m:math>
+  </item>
+  
+  <item><label>b</label>
+   <m:math>
+    <m:mi>P(F)</m:mi><m:mo> ⋅ </m:mo><m:mi>P(C)</m:mi>
+    <m:mo> = </m:mo>
+    <m:mfrac>
+     <m:mn>45</m:mn>
+     <m:mn>100</m:mn>
+    </m:mfrac>
+    <m:mo> ⋅ </m:mo>
+    <m:mfrac>
+     <m:mn>34</m:mn>
+     <m:mn>100</m:mn>
+    </m:mfrac>
+    <m:mo> = </m:mo>
+    <m:mn>0.45</m:mn>
+    <m:mo> ⋅ </m:mo>    
+    <m:mn>0.34</m:mn>
+    <m:mo> = </m:mo>
+    <m:mn>0.153</m:mn>
+   </m:math>
+  </item>
+  </list>
+
+  <para id="element-404"><m:math>
+    <m:mtext>P(F AND C)</m:mtext>
+    <m:mo> ≠ </m:mo>
+    <m:mi>P(F)</m:mi><m:mo> ⋅ </m:mo><m:mi>P(C)</m:mi></m:math>, so the events <m:math><m:mi>F</m:mi></m:math> and <m:math><m:mi>C</m:mi></m:math> are not independent.
+
+  </para>
+</solution>
+</exercise><exercise id="element-414">
+<problem id="id41525175">
+  <para id="element-717">
+Find the probability that a person is male given that the person prefers hiking near lakes and streams.  Let <m:math><m:mtext>M</m:mtext></m:math> = being male and let <m:math><m:mtext>L</m:mtext></m:math> = prefers hiking near lakes and streams.
+</para>
+
+<list id="element-2341" list-type="labeled-item" mark-suffix=".">
+<item><label>a</label>What word tells you this is a conditional? </item>
+<item><label>b</label>Fill in the blanks and calculate the probability: <m:math><m:mtext>P(___|___)</m:mtext><m:mo> = </m:mo><m:mi>___</m:mi></m:math>.</item>
+<item><label>c</label>Is the sample space for this problem all 100 hikers? If not, what is it?        </item>
+</list>
+
+</problem>
+
+<solution id="id41525272" print-placement="end">
+<list id="element-2341s" list-type="labeled-item" mark-suffix=".">
+<item><label>a</label>The word 'given' tells you that this is a conditional.</item>
+<item><label>b</label><m:math><m:mtext>P(M|L)</m:mtext><m:mo> = </m:mo><m:mfrac><m:mn>25</m:mn><m:mn>41</m:mn></m:mfrac></m:math></item>
+<item><label>c</label>No, the sample space for this problem is 41.</item>
+</list>
+</solution>
+</exercise><exercise id="element-402"><problem id="id41525358">
+  <para id="element-715">
+   Find the probability that a person is female or prefers hiking on mountain peaks.
+   Let <m:math><m:mi>F</m:mi></m:math> = being female and let <m:math><m:mi>P</m:mi></m:math> = prefers mountain peaks.
+  </para>
+
+  <list id="list1213" list-type="labeled-item" mark-suffix=".">
+   <item><label>a</label><m:math><m:mtext>P(F)</m:mtext><m:mo> = </m:mo></m:math> </item>     
+   <item><label>b</label><m:math><m:mtext>P(P)</m:mtext><m:mo> = </m:mo></m:math> </item>
+   <item><label>c</label><m:math><m:mtext>P(F AND P)</m:mtext><m:mo> = </m:mo></m:math></item>
+   <item><label>d</label>Therefore, <m:math><m:mtext>P(F OR P)</m:mtext><m:mo> = </m:mo></m:math> </item>
+</list>
+
+</problem>
+
+<solution id="id41669265" print-placement="end">
+
+  <list id="list1213s" list-type="labeled-item" mark-suffix=".">
+   <item><label>a</label><m:math><m:mtext>P(F)</m:mtext><m:mo> = </m:mo><m:mfrac><m:mn>45</m:mn><m:mn>100</m:mn></m:mfrac></m:math> </item>     
+   <item><label>b</label><m:math><m:mtext>P(P)</m:mtext><m:mo> = </m:mo><m:mfrac><m:mn>25</m:mn><m:mn>100</m:mn></m:mfrac></m:math> </item>
+   <item><label>c</label><m:math><m:mtext>P(F AND P)</m:mtext><m:mo> = </m:mo><m:mfrac><m:mn>11</m:mn><m:mn>100</m:mn></m:mfrac></m:math></item>
+   <item><label>d</label><m:math><m:mtext>P(F OR P)</m:mtext><m:mo> = </m:mo><m:mfrac><m:mn>45</m:mn><m:mn>100</m:mn></m:mfrac>  <m:mo> + </m:mo> <m:mfrac><m:mn>25</m:mn><m:mn>100</m:mn></m:mfrac> <m:mo> - </m:mo>  <m:mfrac><m:mn>11</m:mn><m:mn>100</m:mn></m:mfrac> <m:mo> = </m:mo><m:mfrac><m:mn>59</m:mn><m:mn>100</m:mn></m:mfrac></m:math> </item>
+</list>
+</solution>
+</exercise>
+</example><example id="element-883"><para id="element-700">Muddy Mouse lives in a cage with 3 doors.  If Muddy goes out the first door, the probability that he gets caught by Alissa the cat is <m:math>
+ <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>5</m:mn>
+  </m:mfrac>
+  <m:mtext/>
+</m:math> and the probability he is not caught is <m:math>
+ <m:mfrac>
+    <m:mn>4</m:mn>
+    <m:mn>5</m:mn>
+  </m:mfrac>
+  <m:mtext/>
+</m:math>.  If he goes out the second door, the probability he gets caught by Alissa is <m:math>
+ <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>4</m:mn>
+  </m:mfrac>
+</m:math> and the probability he is not caught is <m:math>
+ <m:mfrac>
+    <m:mn>3</m:mn>
+    <m:mn>4</m:mn>
+  </m:mfrac>
+</m:math>.  The probability that Alissa catches Muddy coming out of the third door is <m:math>
+ <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>2</m:mn>
+  </m:mfrac>
+</m:math> and the probability she does not catch Muddy is <m:math>
+ <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>2</m:mn>
+  </m:mfrac>
+</m:math>.  It is equally likely that Muddy will choose any of the three doors so the probability of choosing each door is <m:math>
+ <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>3</m:mn>
+  </m:mfrac>
+</m:math>.
+</para>
+<table id="element-666" summary="">
+<title>Door Choice</title>
+<tgroup cols="5"><thead>
+  <row>
+    <entry>Caught or Not</entry>
+    <entry>Door One</entry>
+    <entry>Door Two</entry>
+    <entry>Door Three</entry>
+    <entry>Total</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+       <entry>Caught</entry> 
+   <entry><m:math>
+ <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>15</m:mn>
+  </m:mfrac>
+  <m:mtext/>
+</m:math></entry>
+    <entry><m:math>
+ <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>12</m:mn>
+  </m:mfrac>
+  <m:mtext/>
+</m:math></entry>
+    <entry><m:math>
+ <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>6</m:mn>
+  </m:mfrac>
+  <m:mtext/>
+</m:math></entry>
+    <entry>____</entry>
+  </row>
+  <row>
+    <entry>Not Caught</entry>
+    <entry><m:math>
+ <m:mfrac>
+    <m:mn>4</m:mn>
+    <m:mn>15</m:mn>
+  </m:mfrac>
+</m:math></entry>
+    <entry><m:math>
+ <m:mfrac>
+    <m:mn>3</m:mn>
+    <m:mn>12</m:mn>
+  </m:mfrac>
+</m:math></entry>
+    <entry><m:math>
+ <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>6</m:mn>
+  </m:mfrac>
+</m:math></entry>
+    <entry>____</entry>
+  </row>
+  <row>
+    <entry>Total</entry>
+    <entry>____</entry>
+    <entry>____</entry>
+    <entry>____</entry>
+    <entry>1</entry>
+  </row>
+</tbody>
+</tgroup>
+</table>
+
+
+<list id="element-791" list-type="bulleted"><item>The first entry <m:math>
+ <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>15</m:mn>
+  </m:mfrac>
+<m:mo> =</m:mo> <m:mo>(</m:mo>
+ <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>5</m:mn>
+  </m:mfrac>
+<m:mo>)</m:mo>
+<m:mo>(</m:mo>
+ <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>3</m:mn>
+  </m:mfrac>
+<m:mo>)</m:mo></m:math> is <m:math><m:mtext>P(Door One AND Caught)</m:mtext></m:math>.</item>
+
+
+<item>The entry
+ <m:math><m:mfrac>
+    <m:mn>4</m:mn>
+    <m:mn>15</m:mn>
+  </m:mfrac>
+ <m:mo>=</m:mo> <m:mo>(</m:mo>
+ <m:mfrac>
+    <m:mn>4</m:mn>
+    <m:mn>5</m:mn>
+  </m:mfrac>
+<m:mo>)</m:mo><m:mo>(</m:mo>
+ <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>3</m:mn>
+  </m:mfrac>
+<m:mo>)</m:mo></m:math> is <m:math><m:mtext>P(Door One AND Not Caught)</m:mtext></m:math>.</item>
+
+</list><para id="element-94">Verify the remaining entries.</para><exercise id="element-919">
+<problem id="id41669984">
+  <para id="element-910">Complete the probability contingency table.  Calculate the entries for the totals.  Verify that the lower-right corner entry is 1.
+  </para>
+</problem>
+
+<solution id="id41670004" print-placement="end">
+<table id="element-6166" summary="Displayed is a contingency table showing all the entries for the Muddy Mouse problem."><title>Door Choice</title>
+<tgroup cols="5"><thead>
+  <row>
+    <entry>Caught or Not</entry>
+    <entry>Door One</entry>
+    <entry>Door Two</entry>
+    <entry>Door Three</entry>
+    <entry>Total</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+       <entry>Caught</entry> 
+   <entry><m:math>
+ <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>15</m:mn>
+  </m:mfrac>
+  <m:mtext/>
+</m:math></entry>
+    <entry><m:math>
+ <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>12</m:mn>
+  </m:mfrac>
+  <m:mtext/>
+</m:math></entry>
+    <entry><m:math>
+ <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>6</m:mn>
+  </m:mfrac>
+  <m:mtext/>
+</m:math></entry>
+    <entry><emphasis><m:math><m:mfrac><m:mn>19</m:mn><m:mn>60</m:mn></m:mfrac></m:math></emphasis></entry>
+  </row>
+  <row>
+    <entry>Not Caught</entry>
+    <entry><m:math>
+ <m:mfrac>
+    <m:mn>4</m:mn>
+    <m:mn>15</m:mn>
+  </m:mfrac>
+</m:math></entry>
+    <entry><m:math>
+ <m:mfrac>
+    <m:mn>3</m:mn>
+    <m:mn>12</m:mn>
+  </m:mfrac>
+</m:math></entry>
+    <entry><m:math>
+ <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>6</m:mn>
+  </m:mfrac>
+</m:math></entry>
+    <entry><emphasis><m:math><m:mfrac><m:mn>41</m:mn><m:mn>60</m:mn></m:mfrac></m:math></emphasis></entry>
+  </row>
+  <row>
+    <entry>Total</entry>
+    <entry><emphasis><m:math><m:mfrac><m:mn>5</m:mn><m:mn>15</m:mn></m:mfrac></m:math></emphasis></entry>
+    <entry><emphasis><m:math><m:mfrac><m:mn>4</m:mn><m:mn>12</m:mn></m:mfrac></m:math></emphasis></entry>
+    <entry><emphasis><m:math><m:mfrac><m:mn>2</m:mn><m:mn>6</m:mn></m:mfrac></m:math></emphasis></entry>
+    <entry>1</entry>
+  </row>
+</tbody>
+
+</tgroup>
+</table>
+</solution>
+</exercise><exercise id="element-604"><problem id="id41670368">
+  <para id="element-117">
+     	What is the probability that Alissa does not catch Muddy?
+  </para>
+</problem>
+
+<solution id="id41670388">
+  <para id="element-70">
+    <m:math><m:mfrac><m:mn>41</m:mn><m:mn>60</m:mn></m:mfrac></m:math>
+  </para>
+</solution>
+</exercise>
+
+<exercise id="element-288"><problem id="id41670423">
+  <para id="element-45">
+       	 What is the probability that Muddy chooses Door One <emphasis>OR</emphasis> Door Two given that Muddy is caught by Alissa?
+  </para>
+</problem>
+
+<solution id="id41670452">
+  <para id="element-63"><m:math><m:mfrac><m:mn>9</m:mn><m:mn>19</m:mn></m:mfrac></m:math></para>
+</solution>
+</exercise>
+
+<note id="id41670477">You could also do this problem by using a probability tree.  See the <link document="m16846">Tree Diagrams (Optional)</link> section of this chapter for examples.</note>
+</example>   
+  </content>
+  
+<glossary>
+ 
+<definition id="contintable">
+    <term>Contingency Table</term>
+    <meaning id="id17487593">
+The method of displaying a frequency distribution as a table with rows and columns to show how two variables may be dependent (contingent) upon each other.  The table provides an easy way to calculate conditional probabilities.
+    </meaning>
+  </definition>
+
+
+</glossary>
+</document>
